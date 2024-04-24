@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(140, 144, 148);
+ 
+}
+
+form{
+  position: relative;
+  width: 500px;
+  height: 650px;
+  background-color: rgb(101, 101, 101);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  flex-direction: column;
+  margin:20px auto;
+}
+
+
+#a,#b,#c{
+  width: 350px;
+  border:black 2px solid;
+  text-align: center;
+  font-size: 25px;
+}
+
+#submit{
+  margin-top: 50px;
+  width: 350px;
+  height: 35px;
+  font-size: 25px;
+  border:black 2px solid;
+}
+
+#equal{
+  font-size: 35px;
+}
+
+#name{
+  margin: 0;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: aliceblue;
+  text-align: center;
+  height: 35px;
+}
