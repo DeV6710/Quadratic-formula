@@ -16,7 +16,11 @@ form{
   margin:20px auto;
 }
 
-
+#title{
+  color: white;
+  position: absolute;
+  top:0;
+}
 #a,#b,#c{
   width: 350px;
   border:black 2px solid;
@@ -24,12 +28,21 @@ form{
   font-size: 25px;
 }
 
-#submit{
-  margin-top: 50px;
-  width: 350px;
+#radical{
+  width: 150px;
   height: 35px;
   font-size: 25px;
   border:black 2px solid;
+  display: inline-block;
+}
+
+#submit{
+  margin-top: 50px;
+  width: 150px;
+  height: 35px;
+  font-size: 25px;
+  border:black 2px solid;
+  display: inline-block;
 }
 
 #equal{
@@ -44,4 +57,38 @@ form{
   background-color: aliceblue;
   text-align: center;
   height: 35px;
+}
+#steps{
+  display:none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  
+}
+
+#steps:hover{
+  
+  color: rgb(0, 0, 0);
+}
+
+
+#first,#second,#third{
+  font-size: 25px;
+  font-weight: 800;
+}
+
+#p{
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+#back{
+  display: none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+
+}
+
+
+#back:hover{
+  color: rgb(0, 0, 0);
 }
