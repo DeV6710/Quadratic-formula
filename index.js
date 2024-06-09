@@ -84,6 +84,7 @@ steps.addEventListener("click",function(e){
     steps.style.display = "none"
     steps.style.display = "none"
     bruh.style.display = "none"
+    equal.style.display = "none"
 
     first.innerText = "1. "+av +"x² +"+bv+"+"+cv
    
